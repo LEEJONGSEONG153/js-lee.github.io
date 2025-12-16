@@ -36,9 +36,14 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="header__logo">
-        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
-        <a class="header__logo__title" href="#"><h1>JsLee</h1></a>
+      <div class="header__container">
+        <div class="header__logo">
+          <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+          <a class="header__logo__title" href="#"><h1>JsLee</h1></a>
+        </div>
+        <button class="header__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
@@ -57,20 +62,22 @@
     <main>
       <!-- Home -->
       <section id="home">
-        <img
-          class="home__avatar"
-          src="images/profile.png"
-          alt="JsLee's profile"
-        />
-        <h2 class="home__title">
-          Hello<br />
-          I&#39;m <strong class="home__title--strong">Dream Coder</strong>,
-          JsLee
-        </h2>
-        <p class="home__description">
-          A software engineer currently residing in Suwon-si, Korea
-        </p>
-        <a class="home__contact" href="#contact">Contact Me</a>
+        <div class="home__container">
+          <img
+            class="home__avatar"
+            src="images/profile.png"
+            alt="JsLee's profile"
+          />
+          <h2 class="home__title">
+            Hello<br />
+            I&#39;m <strong class="home__title--strong">Dream Coder</strong>,
+            JsLee
+          </h2>
+          <p class="home__description">
+            A software engineer currently residing in Suwon-si, Korea
+          </p>
+          <a class="home__contact" href="#contact">Contact Me</a>
+        </div>
       </section>
       <!-- About -->
       <section id="about" class="section max-container">
