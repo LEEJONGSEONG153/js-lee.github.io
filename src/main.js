@@ -1,3 +1,7 @@
+'use strict';
+
+const dd = 1;
+
 const changeHeaderColor = (e) => {
   const header = document.querySelector('.header');
   const headerHeight = header.getBoundingClientRect().height;
